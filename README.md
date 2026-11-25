@@ -70,43 +70,7 @@ When a new word is detected, the old word is cleared.
 
 |--------|-------------|
 
-| `APP`  | Main application logic (reads sensors, maps postures to words) |
+| `APP`  | Main application logic (private submodule, source not publicly available) |
 
-| `HAL`  | Hardware drivers: `HADC` (ADC handling), `LCD` |
-
-| `MCAL` | Microcontroller drivers: `DIO`, `MADC` registers |
-
-| `utils`| Common types (`STD\_TYPES.h`) and bit-math macros (`bit\_math.h`) |
-
-
-
-\## How It Works
-
-
-
-1\. Each flex sensor is connected to an ADC channel.
-
-2\. The ADC reads the bending value of each finger.
-
-3\. The application compares the readings with thresholds to detect the posture.
-
-4\. The matching word is printed on the LCD.
-
-
-
-\## Tools
-
-
-
-\- Atmel Studio
-
-\- Embedded C
-
-
-
-\## Author
-
-
-
-Omar - AMIT Embedded Systems Training
+| `HAL`  | Hardware drivers: `HADC` (ADC handling),
 
