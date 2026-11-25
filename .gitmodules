@@ -1,0 +1,3 @@
+[submodule "APP"]
+	path = APP
+	url = https://github.com/omerawado135-ai/AMIT_Embedded_Private.git
