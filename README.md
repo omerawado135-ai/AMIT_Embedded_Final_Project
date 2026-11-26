@@ -34,13 +34,12 @@ When a new word is detected, the old word is cleared.
 
 | Folder | Description |
 |--------|-------------|
-| `APP`  | Main application logic (private submodule, source not publicly available) |
+| `APP`  | Main application logic (`main.c`, not published in this repository) |
 | `HAL`  | Hardware drivers: `HADC` (ADC handling), `LCD` |
 | `MCAL` | Microcontroller drivers: `DIO`, `MADC` registers |
 | `utils`| Common types (`STD_TYPES.h`) and bit-math macros (`bit_math.h`) |
 
-> **Note:** The `APP` folder is a private Git submodule, so it will appear empty
-> or inaccessible unless you have been granted access.
+> **Note:** The main application file is intentionally not included in this repository.
 
 ## How It Works
 
