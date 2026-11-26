@@ -10,3 +10,4 @@ Release/
 *.srec
 *.eep
 
+APP/main.c
